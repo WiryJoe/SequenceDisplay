@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequence Display</title>
+</head>
+<body>
+    <div class=wsd wsd-style="patent" id="seqText"><pre>
+            <script>
+                function makeDiagram(){
+                var newText2 = sessionStorage.getItem("storedText");
+                document.getElementById("seqText").value="seqText";
+                window.onload = makeDiagram;
+            }
+            </script>
+        title Logan's Morning Routine
+
+        Logan->Logan: Wake up
+        Logan->Rooms: Go to bathroom
+        Rooms->Tasks: Shower
+        Rooms->Tasks: Brush teeth
+        Rooms->Logan: Finish in bathroom
+        Logan->Rooms: Go to kitchen
+        Rooms->Tasks: Make food
+        Rooms->Tasks: Plan dinner
+        Rooms->Logan: Finish in kitchen
+        Logan->Rooms: Go to bedroom
+        Rooms->Tasks: Work out
+        Rooms->Tasks: Check emails
+        Rooms->Tasks: Check messages
+        Rooms->Tasks: Plan daily todo
+        Rooms->Logan: Plans made   
+        
+        </pre></div><script type="text/javascript" src="https://www.websequencediagrams.com/service.js"></script>
+        
+        
+        
+</body>
+        
+</html>
